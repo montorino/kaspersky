@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.min.css">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=10.0, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=0.375" />-->
+
+    <!--<meta name="viewport" content="width=width=device-width" />-->
+    <title>Title</title>
+    <link href="//db.onlinewebfonts.com/c/12bf09bbab6798172e4523891f348665?family=Kaspersky+Regular" rel="stylesheet"
+          type="text/css"/>
+</head>
+<body>
+
+<div class="wrapper">
+    <section class="header">
+        <div class="header-inner">
+
+
+            <button class="header__burger burger btn-reset" aria-label="Open menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+
+            <div class="logo">
+                <a href="index.html"><img src="./assets/images/logo.png" alt=""></a>
+            </div>
+            <div class="choose-language">
+                <div class="choose-language__inner">
+                    GBP
+                </div>
+                <div class="choose-language-body">
+                    <div class="choose-language-body__inner">
+                        <ul>
+                            <li><a href="#">USD</a></li>
+                            <li><a href="#">RUR</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cart"></div>
+        </div>
+    </section>
+
+    <section class="hero row section active" id="home">
+        <div class="content">
+            <div class="content-inner">
+                <div class="content-inner-left">
+                    <div class="content-inner__title">
+                        <img class="img1" src="./assets/images/hero-img1.svg" alt="Kaspersky">
+                        <span>&</span>
+                        <img class="img2" src="./assets/images/hero-img2.png" alt="Energizer">
+                    </div>
+                    <div class="content-inner__description">
+                        Enjoy 20$ free and save up to 60%
+                        on your online security
+                    </div>
+                    <div class="content-inner__text">
+                        <p>Whatever you need to protect – your PC & mobile devices or your family’s entire digital
+                            world – we’ve got the security solutions you need. Our premium solutions are all Android
+                            compatible to make sure
+                            your mobile is as safe as your PC or laptops.</p>
+                        <p>Select the solution that fits best your needs, click on “Buy now”,
+                            fill in your personal code received by email in the cart, your discount will apply.</p>
+                    </div>
+                    <div class="content-inner__terms">
+                        <a href="#">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="content-inner__img lazy">
+                    <img src="./assets/images/hero-bg.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="plans slider section row" id="plans">
+        <div class="content">
+            <div class="content-inner slider__wrapper">
+                <div class="content-inner__plan1 slider__item lazy">
+                    <div class="content-inner__plan1-inner">
+                        <div class="top">
+                            <div class="title row">
+                                <div class="picture">
+                                    <img src="../assets/images/plan1-img.svg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p class="t1">Kaspersky</p>
+                                    <p class="t2">Internet Security</p>
+                                    <p class="t3"> <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="reviews">(1503 reviews)</span></p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Advanced antivirus & privacy protection for PC, Mac & Mobile</li>
+                                    <li>Includes Webcam Protection, Safe <br> Money Browser & free VPN</li>
+                                </ul>
+                                <p >2 User accounts <span data-text="Refer a friend, get a discount!"></span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="plan-details">
+                                <div class="title">
+                                    <p class="p1">Choose your plan:</p>
+                                </div>
+                                <div id="select"></div>
+                                <div class="proposal">Protect more devices</div>
+                                <div class="discount">$20 OFF</div>
+                                <div class="old-price"></div>
+                                <div class="new-price"></div>
+                                <button class="btnBuy">buy now</button>
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="check" checked>
+                                    <label for="check" class="checkmark">Auto Renewal</label>
+                                    <span class="ch" data-text="Auto Renewal is available"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-inner__plan2 slider__item lazy">
+                    <div class="content-inner__plan2-inner">
+                        <div class="top">
+                            <div class="title row">
+                                <div class="picture">
+                                    <img src="../assets/images/plan2-img.svg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p class="t1">Kaspersky</p>
+                                    <p class="t2">Total Security</p>
+                                    <p class="t3">
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="reviews">(1503 reviews)</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Complete security & privacy suite for PC, Mac & Mobile</li>
+                                    <li>Includes Kaspersky Password Manager & Kaspersky Safe Kids</li>
+                                </ul>
+                                <p>2 User accounts<span data-text="Refer a friend, get a discount!"></span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="plan-details">
+                                <div class="title">
+                                    <p class="p1">Choose your plan:</p>
+                                </div>
+                                <div id="select2"></div>
+                                <div class="proposal">Protect more devices</div>
+                                <div class="discount">$20 OFF</div>
+                                <div class="old-price"></div>
+                                <div class="new-price"></div>
+                                <button class="btnBuy">buy now</button>
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="check2" checked>
+                                    <label for="check2" class="checkmark">Auto Renewal</label>
+                                    <span class="ch" data-text="Auto Renewal is available"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="content-inner__plan3 slider__item lazy">
+                    <div class="content-inner__plan3-inner">
+                        <div class="top">
+                            <div class="title row">
+                                <div class="picture">
+                                    <img src="./assets/images/plan3-img.svg" alt="">
+                                </div>
+                                <div class="text">
+                                    <p class="t1">Kaspersky</p>
+                                    <p class="t2">Security Cloud</p>
+                                    <p class="t3">
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="icon-star-full"></span>
+                                        <span class="reviews">(1503 reviews)</span></p>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Check your online accounts for data leaks</li>
+                                    <li>Monitor your home Wi-Fi for intruders</li>
+                                </ul>
+                                <p>2 User accounts<span data-text="Refer a friend, get a discount!"></span></p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="plan-details">
+                                <div class="title">
+                                    <p class="p1">Choose your plan:</p>
+                                </div>
+                                <div id="select3"></div>
+                                <div class="proposal">Protect more devices</div>
+                                <div class="discount">$20 OFF</div>
+                                <div class="old-price"></div>
+                                <div class="new-price"></div>
+                                <button class="btnBuy">buy now</button>
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" id="check3" checked>
+                                    <label for="check3" class="checkmark">Auto Renewal</label>
+                                    <span class="ch" data-text="Auto Renewal is available"></span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="slider__control slider__control_left" role="button"></a>
+                <a href="#" class="slider__control slider__control_right slider__control_show" role="button"></a>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="info row section" id="faq">
+        <div class="content">
+            <div class="content-inner">
+
+
+                <div class="content-inner__header row lazy">
+                    <div class="title-faq">Frequently Asked Questions</div>
+                    <div class="buttons-block">
+                        <button class="btn btn-primary faq  assortment-btn active">FAQ</button><button class="btn btn-primary req assortment-btn ">System Requirements</button>
+                    </div>
+                </div>
+                <div class="faq-list assortment-tab">
+                    <div class="accordion">
+                        <div class="content-box">
+                            <div class="label">How many devices can I protect?</div>
+                            <div class="content-faq">
+                                <p>As many as you wish</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="label">Will I get the latest version?</div>
+                            <div class="content-faq">
+                                <p>Beyond any doubt!</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="label">How quickly can I start using the software?</div>
+                            <div class="content-faq">
+                                <p>Upon payment</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="label">How do I download and install the software?</div>
+                            <div class="content-faq">
+                                <p>You download the software straight from our website. Simply complete your payment
+                                    order and the download link will appear on the order confirmation page. The same
+                                    download link will ...</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="label">What type of encryption is used in Kaspersky VPN?</div>
+                            <div class="content-faq">
+                                <p>Secure Connection</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="label">What server locations are offered by Kaspersky VPN?</div>
+                            <div class="content-faq">
+                                <p>American and European</p>
+                            </div>
+                        </div>
+                        <div class="content-box">
+                            <div class="label">Is Lorem ipsum a placeholder text commonly used?</div>
+                            <div class="content-faq">
+                                <p>Perhaps</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="req-list assortment-tab">
+                    <p>For all devices</p>
+                    <div class="windows-list">
+                        <ul>
+                            <li>Internet connection required – for product activation & updates and for access to some
+                                features
+                            </li>
+                            <li>Webcam Protection technology only runs on PCs & Mac computers. The feature is
+                                available for a range of compatible web-cameras. For the full list of compatible
+                                devices, please visit: <br><a href="https://support.kaspersky.com/14108#block1">https://support.kaspersky.com/14108#block1</a>
+                                (for PCs) and <br>
+                                <a href="https://support.kaspersky.com/14248#block1">https://support.kaspersky.com/14248#block1</a>
+                                (for Mac computers)
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <p>Windows®-based desktops and laptops</p>
+                    <div class="windows-list">
+                        <ul>
+                            <li>1500 MB free space on the hard drive</li>
+                            <li>Microsoft® Internet Explorer® 10 or higher</li>
+                            <li>Microsoft .NET Framework 4 or higher</li>
+                            <li>Microsoft Windows 101 Home / Pro / Enterprise2 3</li>
+                            <li>Microsoft Windows 8 & 8.1 / Pro / Enterprise3 / 8.1 update2</li>
+                            <li>Microsoft Windows 7 Starter / Home Basic & Premium / Professional / Ultimate — SP1 or
+                                higher2
+                            </li>
+                            <li>Processor: 1 GHz or higher</li>
+                            <li>Memory (RAM): 1 GB (32-bit) or 2 GB (64-bit)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</div>
+
+
+
+<div class="fade-out-effect"></div>
+
+<nav class="nav-menu">
+    <div class="container menu">
+        <div class="close-nav-menu outer-shadow hover-in-shadow">
+            ×
+        </div>
+        <div class="nav-menu-inner">
+            <ul>
+                <li><a href="#home" class="link-item inner-shadow active">home</a></li>
+                <li><a href="#plans" class="link-item outer-shadow hover-in-shadow">plans</a></li>
+                <li><a href="#faq" class="link-item outer-shadow hover-in-shadow">info</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="copyright-text">© 2021 Rinat studio</p>
+
+
+</nav>
+
+
+
+<div class="footer">
+    <div class="footer-inner">
+
+        <div class="footer-inner__info">
+            <p>© 2020 AO Kaspersky Lab. All Rights Reserved.</p>
+            <p>Adaptive security technology is based on the patent US7584508 B1: ‘Adaptive security for information
+                devices’.</p>
+            <ul>
+                <li class="footer-inner__info-link"><a href="#">Privacy Policy</a></li>
+                <li class="footer-inner__info-link"><a href="#">Anti-Corruption Policy</a></li>
+                <li class="footer-inner__info-link"><a href="#">Licence Agreement B2C</a></li>
+                <li class="footer-inner__info-link"><a href="#">Licence Agreement B2B</a></li>
+                <li class="footer-inner__info-link"><a href="#">Terms of Use</a></li>
+                <li class="footer-inner__info-link"><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-inner__right">
+            <ul class="footer__social social">
+                <li class="social__item"><a href="#" class="social__link social__link-fb"
+                                            aria-label="Go to Facebook"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link-inst"
+                                            aria-label="Go to Instagram"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link-tw"
+                                            aria-label="Go to Twitter"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link-youtube"
+                                            aria-label="Go to Youtube"></a></li>
+            </ul>
+            <div class="selectCountry">
+                <select id="selectCountry">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+</div>
+
+
+<script src="./assets/js/main.js"></script>
+
+</body>
+</html>
